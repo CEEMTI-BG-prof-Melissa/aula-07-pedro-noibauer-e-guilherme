@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title> aula 07 </title>
+  </head>
+  <body>
+      <h1>Cadastro Pessoal</h1>
+        <form action="/recebe.html" method="post">
+          Nome Completo <input type="text" maxlength="50" id="NomeCompleto" name="NomeCompleto">
+          <br><br>
+          Senha <input type="password" id="password" name="password">
+          <br><br>
+          Idade <input type="number" id="Idade" name="Idade" min="1" max="120">
+          <br><br>
+          Email <input type="email" id="Email" name="Email">
+          <br><br>
+          Data de Nascimento <input type="date" id="DatadeNascimento" name="DatadeNascimento" min="2000-01-01" max="2024-12-31">
+          <br><br>
+          Mensagem de observação <br>
+          <textarea name="menssagem" id="menssagem" cols="40" rows="4"></textarea>
+          <br><br>
+          Área de interesse
+          <select>
+              <option> Programação </option>
+              <option> Design </option>
+              <option> Redes </option>
+              <option> Suporte </option>
+            </select>
+          <br><br>
+          <input type="submit" value="Entrar" >
+        </form>
+  </body>
+</html>
